@@ -7,8 +7,19 @@
 \usepackage{emptypage} % prevent empty pages with text
 \usepackage{multirow} % tables
 \usepackage{multicol} % list of species
+\usepackage{tocloft} % fix narrow section numbering in ToC
+\setlength{\cftsecnumwidth}{3em}
+\usepackage{hyperref}
+\usepackage{chemformula}
+\hypersetup{
+    colorlinks=false, %set true if you want colored links
+    linktoc=all,      %set to all if you want both sections and subsections linked
+    linkcolor=blue,   %choose some color if you want links to stand out
+}
 
 \begin{document}
+
+% \renewcommand{\@numwidth}{2em}
 
 \title{Seed Germination Theory and Practice \\
 Second Edition \\
@@ -20,6 +31,8 @@ Second Edition \\
 \date{Published June 1, 1993}
 
 \frontmatter
+\maketitle
+\tableofcontents
 
 \chapter*{}
 Based on Experiments on 145 Families, 805 Genera, and about 2500 Species
@@ -52,11 +65,7 @@ Norman C. Deno,
 
 \include{forward}
 
-\tableofcontents
-
 \mainmatter
-
-\maketitle
 
 \include{ch-intro} % 1
 \include{ch-germ} % 2
