@@ -19,7 +19,7 @@ The book is interesting as it documents ways of germinating many species.
 However, I wouldn't use this as a primary source on propagation protocols. Some
 of the data doesn't really match propagation protocols as given by
 [USDA's Plant Guide](https://plants.usda.gov/DocumentLibrary/plantguide/), or sources like
-[RGNR](https://rngr.net).
+[RNGR](https://rngr.net).
 
 In particular the suggested ("required") use of GA-3 is probably over-promoted.'
 For example, *Ribes cereum* doesn't really require it, although the author insists, as simple 
